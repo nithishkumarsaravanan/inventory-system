@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import '../assets/styles/addProduct.css';
 
 const AddProduct = () => {
   const [product, setProduct] = useState({

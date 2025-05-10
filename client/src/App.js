@@ -1,6 +1,7 @@
 import React from 'react';
 import AddProduct from './components/AddProduct';
 import InventoryList from './components/InventoryList';
+import './assets/styles/main.css';
 
 function App() {
   return (

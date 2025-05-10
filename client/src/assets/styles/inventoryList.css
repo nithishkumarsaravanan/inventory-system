@@ -1,0 +1,49 @@
+/* inventoryList.css */
+.inventory-list {
+  margin-top: 40px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.inventory-list h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inventory-table th,
+.inventory-table td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.inventory-table th {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.inventory-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.inventory-actions button {
+  margin-right: 8px;
+  background-color: #3498db;
+}
+
+.inventory-actions button:last-child {
+  background-color: #e74c3c;
+}
+
+.inventory-actions button:hover {
+  opacity: 0.9;
+}
